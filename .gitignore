@@ -1,0 +1,56 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Temporary files
+*.tmp
+*.temp
+
+# Go workspace files
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Go vendor directory
+vendor/
+
+# Module files
+go.sum
+go.work
+go.work.sum
+
+# Go build output
+bin/
+build/
+
+# Go test binary and results
+*.test
+
+# Debugger files
+__debug_bin
+
+# Dependency directories (remove the comment below if you have dependencies outside of vendor)
+# /vendor/
+
+# Config file for auto-setup of git hooks
+.pre-commit-config.yaml
+
+# Goland system files
+.DS_Store
+
+# Node modules (if you are using Node.js or Vue/React)
+node_modules/
